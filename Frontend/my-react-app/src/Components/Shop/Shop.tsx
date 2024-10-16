@@ -1,6 +1,6 @@
 import axios from 'axios';
-import React, { useEffect, useState } from 'react'
-import { FaBell, FaShoppingCart, FaHeart, FaUser, FaThLarge, FaSearch } from "react-icons/fa"; // Icons from Font Awesome
+import { useEffect, useState } from 'react'
+import { FaBell, FaShoppingCart, FaHeart, FaUser } from "react-icons/fa"; // Icons from Font Awesome
 
 
 import { Link } from 'react-router-dom'
