@@ -18,7 +18,7 @@ const products = [
         "price": 149.99,
         "category": "Dresses",
         "stock": 50,
-        "imageUrl": "https://via.placeholder.com/150?text=Tailored+Dress"
+        "imageUrl": "https://cdn.shopify.com/s/files/1/1742/4023/products/H3245225-SATEEN-COTTON-TAILORED-DRESS-BLACK-SCANLANTHEODORE-2_46f603a6-f86b-4a88-a3f8-05d265d7c521.jpg?v=1707245896"
     },
     {
         "id": 2,
@@ -27,7 +27,7 @@ const products = [
         "price": 299.99,
         "category": "Suits",
         "stock": 30,
-        "imageUrl": "https://via.placeholder.com/150?text=Formal+Suit"
+        "imageUrl": "https://cdn09.nnnow.com/web-images/large/styles/8EMMSRAJFX1/1693212252653/1.jpg"
     },
     {
         "id": 3,

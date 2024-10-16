@@ -68,9 +68,10 @@ function Home() {
                         {products.slice(0, 2).map((product: any) => ( // Slicing the first two products
                             <div key={product.id} className="p-4 shadow-md rounded-lg bg-white">
                                 {/* Image Placeholder */}
-                                <div className="w-full h-40 md:h-64 bg-[#7A7A7A] rounded-lg flex items-center justify-center mb-4">
+                                {/* <div className="w-full h-40 md:h-64 bg-[#7A7A7A] rounded-lg flex items-center justify-center mb-4">
                                     <span className="text-black">Product Image</span>
-                                </div>
+                                </div> */}
+                                <img src={product.imageUrl} alt="" />
                                 {/* Product Details */}
                                 <div>
                                     <h3 className="text-lg md:text-xl font-semibold">{product.name}</h3>

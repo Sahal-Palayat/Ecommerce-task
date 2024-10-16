@@ -5,7 +5,7 @@ const cors_1 = require("cors");
 const userRouter_1 = require("./routes/userRouter");
 const app = (0, express_1.default)();
 const port = 3000;
-app.use((0, cors_1.default)({ origin: 'http://localhost:5173' }));
+app.use((0, cors_1.default)({ origin: 'https://sahal-ecommercetask.vercel.app/' }));
 app.use(express_1.default.json());
 app.use('/', userRouter_1.userRouter);
 app.listen(port, () => {
