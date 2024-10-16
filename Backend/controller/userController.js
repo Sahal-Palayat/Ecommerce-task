@@ -36,7 +36,7 @@ const products = [
         "price": 89.99,
         "category": "Pants",
         "stock": 100,
-        "imageUrl": "https://via.placeholder.com/150?text=Tailored+Pants"
+        "imageUrl": "https://images.bestsellerclothing.in/data/vero-moda/14-feb-2024/186912202_g2.jpg?width=1080&height=1355&mode=fill&fill=blur&format=auto&dpr=1.2"
     },
     {
         "id": 4,
@@ -45,7 +45,7 @@ const products = [
         "price": 49.99,
         "category": "Shirts",
         "stock": 200,
-        "imageUrl": "https://via.placeholder.com/150?text=Casual+Shirt"
+        "imageUrl": "https://static.cilory.com/681508-thickbox_default/nologo-white-navy-checked-casual-shirt.jpg"
     },
     {
         "id": 5,
