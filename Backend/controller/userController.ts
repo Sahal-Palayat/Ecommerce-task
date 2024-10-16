@@ -1,8 +1,6 @@
 import { Request, Response } from "express"
 
 
-
-
 const products =[
     {
       "id": 1,
