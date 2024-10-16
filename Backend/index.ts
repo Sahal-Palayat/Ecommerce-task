@@ -8,7 +8,7 @@ import { userRouter } from './routes/userRouter';
 const app = express();
 const port = 3000; 
 
-app.use(cors({origin: 'https://sahal-ecommercetask.vercel.app/'}))
+app.use(cors({origin: 'https://sahal-ecommercetask.vercel.app'}))
 app.use(express.json());
 
 app.use('/',userRouter)
