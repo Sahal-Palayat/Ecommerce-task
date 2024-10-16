@@ -18,16 +18,16 @@ const products = [
         "price": 149.99,
         "category": "Dresses",
         "stock": 50,
-        "imageUrl": "https://cdn.shopify.com/s/files/1/1742/4023/products/H3245225-SATEEN-COTTON-TAILORED-DRESS-BLACK-SCANLANTHEODORE-2_46f603a6-f86b-4a88-a3f8-05d265d7c521.jpg?v=1707245896"
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9XVEcOB9iaPotIaNiFt-p5cbO1ARP2VJsow&s"
     },
     {
-        "id": 2,
+        "id": 2,    
         "name": "Formal Suit",
         "description": "Bespoke formal suit crafted for a sleek and professional look.",
         "price": 299.99,
         "category": "Suits",
         "stock": 30,
-        "imageUrl": "https://cdn09.nnnow.com/web-images/large/styles/8EMMSRAJFX1/1693212252653/1.jpg"
+        "imageUrl": "https://s3.envato.com/files/399907745/af_31345.JPG"
     },
     {
         "id": 3,
@@ -54,16 +54,16 @@ const products = [
         "price": 199.99,
         "category": "Jackets",
         "stock": 40,
-        "imageUrl": "https://via.placeholder.com/150?text=Tailored+Blazer"
+        "imageUrl": "https://i.etsystatic.com/7416761/r/il/3cc0b7/6110682008/il_340x270.6110682008_mimh.jpg"
     },
     {
         "id": 6,
-        "name": "Evening Gown",
+        "name": "Evening Gown", 
         "description": "Beautifully crafted evening gown made with high-quality fabric.",
         "price": 249.99,
         "category": "Dresses",
         "stock": 25,
-        "imageUrl": "https://via.placeholder.com/150?text=Evening"
+        "imageUrl": "https://veranderwest.com/wp-content/uploads/2024/07/Elizabeth-ball-gown-horizontal-first-photo-1024x683.jpg"
     }
 ];
 function getProducts(req, res) {

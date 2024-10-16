@@ -90,24 +90,22 @@ function Home() {
 
                 {/* Personalized Outfit Recommendations */}
                 <h2 className="text-xl md:text-2xl font-bold mb-4 mx-4 md:mx-10 lg:mx-14">Personalized Outfit Recommendations</h2>
-                <div className="grid grid-cols-2 gap-4 sm:grid-cols-1 md:grid-cols-2">
-                    {products.slice(0, 2).map((product: any) => ( // Slicing the first two products
-                        <div key={product.id} className="p-4 shadow-md rounded-lg bg-white">
-                            {/* Image Placeholder */}
-                            {/* <div className="w-full h-40 md:h-64 bg-[#7A7A7A] rounded-lg flex items-center justify-center mb-4">
-                                <span className="text-black">Product Image</span>
-                            </div> */}
-                            <img src={product.imageUrl} className="w-full h-40 md:h-64 bg-[#7A7A7A] rounded-lg flex items-center justify-center mb-4" alt="" />
-
-                            {/* Product Details */}
-                            <div>
-                                <h3 className="text-lg md:text-xl font-semibold">{product.name}</h3>
-                                <p className="text-sm md:text-base text-gray-500">Price: ${product.price}</p>
+                <div className="grid grid-cols-2 gap-4 sm:grid-cols-1 md:grid-cols-2 md:mx-10 lg:mx-14 mx-4">
+                        {products.slice(0, 2).map((product: any) => ( // Slicing the first two products
+                            <div key={product.id} className="p-4 shadow-md rounded-lg bg-white">
+                                {/* Image Placeholder */}
+                                {/* <div className="w-full h-40 md:h-64 bg-[#7A7A7A] rounded-lg flex items-center justify-center mb-4">
+                                    <span className="text-black">Product Image</span>
+                                </div> */}
+                                <img src={product.imageUrl} className="w-full h-40 md:h-64 bg-[#7A7A7A] rounded-lg flex items-center justify-center mb-4" alt="" />
+                                {/* Product Details */}
+                                <div>
+                                    <h3 className="text-lg md:text-xl font-semibold">{product.name}</h3>
+                                    <p className="text-sm md:text-base text-gray-500">Price: ${product.price}</p>
+                                </div>
                             </div>
-                        </div>
-                    ))}
-                </div>
-
+                        ))}
+                    </div>
 
                 {/* Leading Designers */}
                 <div className='mx-8'>
