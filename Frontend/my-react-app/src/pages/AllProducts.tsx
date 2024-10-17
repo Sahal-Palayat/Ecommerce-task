@@ -1,14 +1,12 @@
-import axios from 'axios';
 import { useEffect, useState } from 'react';
-import { config } from '../config';
 import { useNavigate } from 'react-router-dom';
+import { axiosApiUser } from '../services/axios';
 
 function AllProducts() {
     const [categories, setCategories] = useState([]);
 
     useEffect(() => {
-        // Fetch categories from the backend
-        axios.get(`${config.AUTH_BASE_URL}/categories`)
+        axiosApiUser.get('/categories')  
             .then((response) => {
                 setCategories(response.data);
             })
@@ -16,7 +14,6 @@ function AllProducts() {
                 console.error("There was an error fetching the categories data!", error);
             });
     }, []);
-
     const navigate = useNavigate();
 
     const handleClick = (categoryId: string) => {

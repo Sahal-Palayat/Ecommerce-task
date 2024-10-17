@@ -27,7 +27,7 @@ function Home() {
                  <h2 className="text-xl md:text-2xl font-bold ml-14 mb-4">Seasonal Trends</h2>
                  <ProductList/>
                  <br />  <br />  <br />
-                 <br /><br /><br />
+                 <br /><br />
                  <Footer />
                 </div>
             </div>

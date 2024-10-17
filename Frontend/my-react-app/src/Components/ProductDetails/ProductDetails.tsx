@@ -1,17 +1,15 @@
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import axios from 'axios';
-import { config } from '../../config';
+
 import ShopHeader from '../../pages/ShopHeader';
 import Footer from '../../pages/Footer';
+import { axiosApiUser } from '../../services/axios';
 
 function ProductDetails() {
     const { categoryId } = useParams();
     const [products, setProducts] = useState([]);
-
     useEffect(() => {
-
-        axios.get(`${config.AUTH_BASE_URL}/products/category/${categoryId}`)
+        axiosApiUser.get(`/products/category/${categoryId}`)  // Use axiosApiUser instance
             .then((response) => {
                 setProducts(response.data);
             })
@@ -19,7 +17,6 @@ function ProductDetails() {
                 console.error('Error fetching products for category', error);
             });
     }, [categoryId]);
-
     console.log(products)
     return (
         <div>

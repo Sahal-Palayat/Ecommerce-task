@@ -9,6 +9,7 @@ function Header() {
                     <FaShoppingCart className="text-black text-2xl md:text-4xl" />
                     <FaHeart className="text-black text-2xl md:text-4xl" />
                     <FaUser className="text-black text-2xl md:text-4xl" />
+                    
                 </div>
             </div>
         </div>

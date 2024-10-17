@@ -1,13 +1,11 @@
-import axios from 'axios';
 import { useEffect, useState } from 'react'
-import { config } from '../config';
+import { axiosApiUser } from '../services/axios';
 
 function ProductList() {
     const [products, setProducts] = useState([]);
     useEffect(() => {
-        axios.get(`${config.AUTH_BASE_URL}/products`)
+        axiosApiUser.get('/products') 
             .then((response) => {
-
                 setProducts(response.data);
             })
             .catch((error) => {
