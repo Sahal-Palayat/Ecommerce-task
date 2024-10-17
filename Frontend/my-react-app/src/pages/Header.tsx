@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaBell, FaShoppingCart, FaHeart, FaUser } from "react-icons/fa"; 
 function Header() {
     return (

@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaSearch,FaThLarge } from "react-icons/fa"; 
 
 function SearchBar() {
