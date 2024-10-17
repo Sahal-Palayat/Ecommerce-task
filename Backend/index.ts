@@ -1,14 +1,15 @@
-
-import { Request, Response } from 'express';
 const express = require('express');
-
 const cors= require('cors')
+const dotenv = require('dotenv');
+dotenv.config()
+import { mongooseConfig } from './config/db';
 import { userRouter } from './routes/userRouter';
 
 const app = express();
 const port = 3000; 
 
-app.use(cors({origin: 'https://sahal-ecommercetask.vercel.app'}))
+mongooseConfig()
+app.use(cors({origin: process.env.BASE_URL || ''}))
 app.use(express.json());
 
 app.use('/',userRouter)
